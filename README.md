@@ -1,4 +1,4 @@
-# Jekyll + Bootstrap theme
+# ARGO Seminar
 
 ## Installation
 
