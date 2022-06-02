@@ -7,14 +7,28 @@ title: Home
 permalink: "/"
 ---
 
-<h1>Talks</h1>
+<h1>Argo Seminar</h1>
+
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla metus et dui lacinia, vitae pharetra ipsum
+    vehicula. Cras sed nulla volutpat, sodales quam vitae, volutpat ligula.
+</p>
+
+<h2>Talks</h2>
 
 <ul>
-{%- for post in site.posts -%}
+    {%- for post in site.posts -%}
+    {% assign current_date = post.date | date: "%Y" %}
+
+    {% if current_date != date %}
+        <h4 class="my-3 mx-0 text-center">Year {{ current_date }}</h4>
+        {% assign date = current_date %}
+    {% endif %}
+
     <li>
         <!-- {{ post.date | date_to_long_string: "ordinal", "US" }}: -->
         <a href="{{ post.url }}">{{ post.title }}</a>,
         {{ post.speaker }}
     </li>
-{%- endfor -%}
+    {%- endfor -%}
 </ul>
