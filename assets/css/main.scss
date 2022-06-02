@@ -2,4 +2,9 @@
 ---
 @charset "utf-8";
 
+// https://fonts.google.com/specimen/Nuosu+SIL
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+$font-family-sans-serif: "Inter" sans-serif;
+$font-family-base: $font-family-sans-serif !default;
+
 @import "bootstrap";

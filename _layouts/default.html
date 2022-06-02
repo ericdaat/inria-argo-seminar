@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   <head>
@@ -8,11 +10,17 @@
   </head>
 
   <body>
+      <div class="header container-fluid mb-5 px-0">
+        {%- include header.html -%}
+      </div>
 
-      <div class="container-fluid" style="max-width: 900px;">
+      <div class="container" style="flex: 1;">
         {{ content }}
       </div>
 
+      <div class="footer container-fluid mt-5 px-0">
+        {%- include footer.html -%}
+      </div>
   </body>
 
 </html>
