@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Enhancing Sampling with Learning"
-speaker: "Marylou Gabrié"
-speaker_url: "https://marylou-gabrie.github.io/"
+speaker: Marylou Gabrié
+speaker_url: https://marylou-gabrie.github.io/
 speaker_institution: "CMAP, Ecole Polytechnique"
-date:   2022-06-01 11:12:24 +0200
-categories: jekyll update
+date:   2022-06-02
 ---
 
 In many applications in computational sciences and statistical
