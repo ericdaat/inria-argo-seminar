@@ -8,3 +8,7 @@ $font-family-sans-serif: "Inter" sans-serif;
 $font-family-base: $font-family-sans-serif !default;
 
 @import "bootstrap";
+
+p {
+    text-align: justify;
+}
