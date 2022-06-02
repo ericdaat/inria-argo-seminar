@@ -1,0 +1,21 @@
+{
+  "name": "inria-argo-seminar",
+  "homepage": "https://github.com/ericdaat/inria-argo-seminar",
+  "authors": [
+    "Eric Daoud <daoudattoyan.eric@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "bootstrap": "^5.1.3"
+  }
+}
